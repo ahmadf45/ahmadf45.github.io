@@ -58,6 +58,10 @@ export const BtnGroup = styled.div`
   height: 70px;
   display: flex;
   align-items: center;
+
+  a {
+    margin-right: 5px
+    }
 `;
 
 export const TechCardContainer = styled.div`

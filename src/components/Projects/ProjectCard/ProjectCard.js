@@ -27,25 +27,46 @@ function ProjectCard() {
                 ))}
               </TechCardContainer>
               <BtnGroup>
-                {list.github_url.length > 0 && (
+                {list.playstore_url.length > 0 && (
+                  <a
+                    className="btn PrimaryBtn btn-shadow "
+                    href={list.playstore_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      backgroundColor: "#4285f4",
+                    }}
+                  >
+                    Play Store
+                  </a>
+
+                )}
+                {list.appstore_url.length > 0 && (
                   <a
                     className="btn SecondaryBtn btn-shadow"
-                    href={list.github_url}
+                    href={list.appstore_url}
                     target="_blank"
                     rel="noopener noreferrer"
+                    style={{
+                      borderColor: "#000000",
+                    }}
                   >
-                    Github
+                    App Store
                   </a>
                 )}
-                {list.demo_url.length > 0 && (
+                {list.web_url.length > 0 && (
                   <a
-                    className="btn PrimaryBtn btn-shadow"
-                    href={list.demo_url}
+                    className="btn PrimaryBtn btn-shadow "
+                    href={list.web_url}
                     target="_blank"
                     rel="noopener noreferrer"
+                    style={{
+                      backgroundColor: "#4285f4",
+                    }}
                   >
-                    Demo ➜
+                    Website
                   </a>
+
                 )}
               </BtnGroup>
             </CardRight>

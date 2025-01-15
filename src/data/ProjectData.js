@@ -1,49 +1,104 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "/ykte-feature-graphic.png",
-    title: "YouKnowTheEnding",
+    img: "/1.jpg",
+    title: "Mitsubishi Sales Force ID",
     description:
-      "A cross-platform mobile game (in closed testing) where players try to find the missing pieces of a story.",
-    tech_stack: ["React Native", "Google Cloud", "NextJs", "TailwindCSS"],
-    github_url: "",
-    demo_url: "https://youknowtheending.net/",
+      "Mitsubishi sales force application in Indonesia.",
+    tech_stack: ["Flutter", "Firebase", "Clean Architecture", "OCR"],
+    playstore_url: "https://play.google.com/store/apps/details?id=id.com.mmksi.salesforce&hl=en_US",
+    appstore_url: "https://apps.apple.com/id/app/mitsubishi-sales-force-id/id1483823371",
+    web_url: "",
   },
   {
-    img: "/renr-responsive.png",
-    title: "RENR Safety App",
+    img: "/2.jpg",
+    title: "Mitsubishi Service Ops ID",
     description:
-      "A safety application for the Renewable Resources Dept. of BCIT",
-    tech_stack: ["React", "Firebase"],
-    github_url: "",
-    demo_url: "https://renr-bcit.web.app/",
+      "Application to facilitate operational work services at Mitsubishi Indonesia Dealers.",
+    tech_stack: ["Flutter", "Firebase", "Clean Architecture", "Websocket"],
+    playstore_url: "https://play.google.com/store/apps/details?id=id.com.mmksi.serviceoperation&hl=en_US",
+    appstore_url: "",
+    web_url: "",
   },
   {
-    img: "/mymind-responsive.png",
-    title: "MyMind",
+    img: "/4.jpg",
+    title: "Hewania: Dokter Hewan Online",
     description:
-      "An app where users can purchase online therapy sessions and chat with their therapists.",
-    tech_stack: ["HTML", "CSS", "NodeJs", "MongoDB", "SocketIo"],
-    github_url: "https://github.com/salesp07/MyMind---Copy",
-    demo_url: "https://mymindweb.vercel.app/",
+      "Hewania is here as a super-platform to make it easier for you to find solutions in caring for your beloved pets.",
+    tech_stack: ["Flutter", "Firebase", "Agora", "Websocket"],
+    playstore_url: "https://play.google.com/store/apps/details?id=com.hewania.app&hl=id",
+    appstore_url: "https://apps.apple.com/id/app/hewania-dokter-hewan-online/id1616692928?l=id",
+    web_url: "",
   },
   {
-    img: "/pokedex-responsive.png",
-    title: "Pokedex",
+    img: "/5.jpg",
+    title: "Hewania Vet",
     description:
-      "A pokedex app that displays pokemon data, plays OSTs and makes pokemons dance.",
-    tech_stack: ["ReactJs", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/Pokedex-ReactApp",
-    demo_url: "https://pokedex-salesp07.netlify.app/",
+      "Hewania Vet is an app for veterinarians who want to help care for your pets.",
+    tech_stack: ["Flutter", "Firebase", "Agora", "Websocket"],
+    playstore_url: "https://play.google.com/store/apps/details?id=com.doctorapp.hewania&hl=id",
+    appstore_url: "https://apps.apple.com/id/app/hewania-vet/id1618979481?l=id",
+    web_url: "",
   },
   {
-    img: "/jobDetect.png",
-    title: "JobDetect",
+    img: "/3.jpg",
+    title: "Persona",
     description:
-      "An app to detect if a job posting is a scam or not using its description.",
-    tech_stack: ["Python", "Flask", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/JobDetectNode",
-    demo_url: "https://jobdetective.onrender.com/",
+      "Employee attendance application from Mitsubishi in Indonesia.",
+    tech_stack: ["Flutter", "Firebase", "Clean Architecture", "Geocoding"],
+    playstore_url: "https://play.google.com/store/apps/details?id=com.bsi.employeeapp&hl=en",
+    appstore_url: "",
+    web_url: "",
+  },
+  {
+    img: "/6.jpg",
+    title: "Baqat",
+    description:
+      "Platforms for sharing videos like YouTube exclusively for competitions.",
+    tech_stack: ["Flutter", "Firebase", "Social Login"],
+    playstore_url: "",
+    appstore_url: "",
+    web_url: "",
+  },
+  {
+    img: "/7.jpg",
+    title: "TEH OPLOS kAsegaran",
+    description:
+      "Company Profile Website.",
+    tech_stack: ["Flutter", "PWA"],
+    playstore_url: "",
+    appstore_url: "",
+    web_url: "https://tehoploskasegaran.com/",
+  },
+  {
+    img: "/8.jpg",
+    title: "TEH OPLOS kAsegaran Dashboard",
+    description:
+      "Internal application used to manage store branches, raw materials, package sales, and inventory.",
+    tech_stack: ["Flutter", "PWA"],
+    playstore_url: "",
+    appstore_url: "",
+    web_url: "",
+  },
+  {
+    img: "/9.jpg",
+    title: "SIPMESIN",
+    description:
+      "Application used to manage and display products from Kementerian Perindustrian.",
+    tech_stack: ["Flutter", "PWA"],
+    playstore_url: "",
+    appstore_url: "",
+    web_url: "https://sipmesin-ikm.id/",
+  },
+  {
+    img: "/10.jpg",
+    title: "Warespaze",
+    description:
+      "Web application on-demand warehouse marketplace that connects the supply and demand of warehouse spaces.",
+    tech_stack: ["ReactJs"],
+    playstore_url: "",
+    appstore_url: "",
+    web_url: "https://warespaze.com/",
   },
 ];
 
@@ -51,87 +106,64 @@ export const ProjectList = [
 
 export const stackList = [
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
-    name: "HTML",
+    img: "/dart.svg",
+    name: "Dart",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg",
-    name: "CSS",
+    img: "/flutter.svg",
+    name: "Flutter",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
-    name: "JavaScript",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
-    name: "ReactJS",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
-    name: "NextJs",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
-    name: "Typescript",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
-    name: "Git",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
-    name: "React Native",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
-    name: "NodeJS",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg",
+    img: "/firebase.svg",
     name: "Firebase",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
-    name: "MongoDB",
+    img: "/shorebird.png",
+    name: "Shorebird",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-    name: "Python",
+    img: "/websocket.svg",
+    name: "WebSocket",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg",
-    name: "Flask",
+    img: "/git.svg",
+    name: "Git",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
-    name: "C",
+    img: "/reactjs.svg",
+    name: "ReactJS",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-    name: "Java",
+    img: "/pwa.svg",
+    name: "PWA",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
-    name: "MySQL",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg",
-    name: "Bootstrap",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg",
-    name: "Material UI",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg",
+    img: "/figma.svg",
     name: "Figma",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg",
-    name: "TailwindCSS",
+    img: "/agora.png",
+    name: "Agora",
+  },
+
+  {
+    img: "/maps.svg",
+    name: "Maps",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
+    img: "/vscode.svg",
     name: "VS Code",
+  },
+  {
+    img: "/android-studio.svg",
+    name: "Android",
+  },
+  {
+    img: "/xcode.svg",
+    name: "Xcode",
+  },
+  {
+    img: "/reactjs.svg",
+    name: "ReactJS",
   },
 ];
