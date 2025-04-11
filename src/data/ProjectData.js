@@ -34,7 +34,7 @@ export const ProjectList = [
     img: "/5.jpg",
     title: "Hewania Vet",
     description:
-      "Hewania Vet is an app for veterinarians who want to help care for your pets.",
+      "Hewania Vet is an app for veterinarians who want to help care for customer pets.",
     tech_stack: ["Flutter", "Firebase", "Agora", "Websocket"],
     playstore_url: "https://play.google.com/store/apps/details?id=com.doctorapp.hewania&hl=id",
     appstore_url: "https://apps.apple.com/id/app/hewania-vet/id1618979481?l=id",

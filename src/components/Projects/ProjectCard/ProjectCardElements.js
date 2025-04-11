@@ -34,6 +34,7 @@ export const CardRight = styled.div`
   h4 {
     font-size: 1.5rem;
     font-weight: 400;
+    text-align: center;
   }
 
   p {
